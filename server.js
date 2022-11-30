@@ -1,4 +1,4 @@
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000; //temp
 const dev = process.env.NODE_ENV !== "production";
 
 const nextApp = require("next")({ dev });
